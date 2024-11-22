@@ -1,0 +1,20 @@
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+
+crash.log
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ignored files
+*.tfstate
+*.tfstate.backup
+.terraform
+.idea
+*.iml
+_example/.terraform.tfstate.lock.info
+.terraform.lock.hcl
